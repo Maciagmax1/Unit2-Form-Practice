@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Practice</title>
+  </head>
+  <body>
+    <h1 class="title">Form Example</h1>
+    <div class="form-container">
+      <form class="example-form">
+        <h2>Input type: text</h2>
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name" />
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name" />
+        <h2>Textarea</h2>
+        <label for="vacation">My dream vacation is..</label>
+        <textarea name="vacation" id="vacation" cols="30" rows="5"></textarea>
+        <h2>Input type: email</h2>
+        <label for="gc-email">Email</label>
+        <input
+          type="email"
+          name="gc-email"
+          id="gc-email"
+          placeholder="example@email.com"
+        />
+        <h2>Input type: password</h2>
+        <label for="pass">Enter password</label>
+        <input type="password" name="pass" id="pass" />
+        <h2>Input type: date</h2>
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="dob" />
+        <div>
+          <h2>Input type: radio</h2>
+          <input type="radio" name="animal" id="cat" value="cat" />
+          <label for="cat">Cats</label>
+          <input type="radio" name="animal" id="dog" value="dog" />
+          <label for="dog">Dogs</label>
+        </div>
+        <div>
+          <h2>Input type: checkbox</h2>
+          <input type="checkbox" id="scales" name="scales" checked />
+          <label for="scales">Scales</label>
+          <input type="checkbox" id="horns" name="horns" />
+          <label for="horns">Horns</label>
+          <input type="checkbox" id="tail" name="tail" />
+          <label for="tail">Tail</label>
+          <input type="checkbox" id="multipleheads" name="multipleheads" />
+          <label for="multipleheads">Multiple Heads</label>
+          <input type="checkbox" id="wings" name="wings" />
+          <label for="wings">Wings</label>
+        </div>
+        <h2>Select</h2>
+        <label for="cars">Choose your favorite car</label>
+        <select name="cars" id="cars">
+          <option value="lambo">Lamborghini</option>
+          <option value="ford">Ford</option>
+          <option value="toyota">Toyota</option>
+        </select>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
